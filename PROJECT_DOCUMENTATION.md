@@ -1,6 +1,6 @@
 # ARGOS - Documentation Projet
 
-## Résumé du Projet (~50 mots)
+## Résumé du Projet
 
 ARGOS est une plateforme open-source d'analyse prédictive par IA qui agrège des données publiques pour détecter des signaux faibles et anticiper des crises. Notre objectif : comprendre des tendances globales, pas surveiller des individus. Un défi technique à la hauteur d'une équipe de 7 sur 4 semestres.
 
@@ -233,8 +233,6 @@ ARGOS n'est pas une simple mise à jour d'un projet existant, mais une approche 
 
 ### Présentation
 - **Landing Page** : [URL GitHub Pages à ajouter]
-- **Code Source** : https://github.com/argos-project
-- **Documentation** : https://argos.notion.site
 
 ### Contact
 - **Email** : contact@argos-project.org
@@ -255,6 +253,4 @@ La première phase de notre projet sera de rédiger une charte éthique stricte.
 - Objectif : aide à la décision, pas surveillance individuelle
 
 ---
-
-*Document généré pour l'évaluation du projet ARGOS*
 

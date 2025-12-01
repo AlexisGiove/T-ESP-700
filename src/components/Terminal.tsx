@@ -67,10 +67,10 @@ const Terminal = () => {
     '⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⠀⠀⡀⠁⠠⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀',
     '⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠀⠀⡀⠀⠀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀',
     '',
-    '      ██████╗ ██████╗  ██████╗  ██████╗ ███████╗',
+    '      █████╗ ██████╗  ██████╗  ██████╗ ███████╗',
     '      ██╔══██╗██╔══██╗██╔═══██╗██╔════╝ ██╔════╝',
-    '      ██████╔╝██████╔╝██║   ██║██║  ███╗███████╗',
-    '      ██╔══██╗██╔══██╗██║   ██║██║   ██║╚════██║',
+    '      ███████║██████╔╝██║   ██║██║  ███╗███████╗',
+    '      ██╔══██║██╔══██╗██║   ██║██║   ██║╚════██║',
     '      ██║  ██║██║  ██║╚██████╔╝╚██████╔╝███████║',
     '      ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝  ╚═════╝ ╚══════╝',
     '',
@@ -89,7 +89,7 @@ const Terminal = () => {
       '',
       '  help       - Affiche cette liste de commandes',
       '  logo       - Affiche le logo ARGOS',
-      '  summary    - Résumé du projet (50 mots)',
+      '  summary    - Résumé du projet',
       '  ideation   - Opportunité et problème adressé',
       '  pbs        - Structure de découpage produit (PBS)',
       '  functions  - Description des fonctions haut niveau',
@@ -104,7 +104,7 @@ const Terminal = () => {
     ],
     logo: () => getLogo(),
     summary: () => [
-      'Résumé ARGOS (~50 mots):',
+      'Résumé ARGOS:',
       '',
       'ARGOS est une plateforme open-source d\'analyse prédictive par IA',
       'qui agrège des données publiques pour détecter des signaux faibles',
@@ -520,7 +520,7 @@ const Terminal = () => {
       {/* Terminal */}
       <div
         ref={terminalRef}
-        className="bg-argos-dark-secondary border-2 border-argos-border rounded-lg p-2 sm:p-3 md:p-4 lg:p-6 h-[320px] sm:h-80 md:h-96 overflow-y-auto overflow-x-hidden font-mono-terminal transition-all duration-300"
+        className="bg-argos-dark-secondary border-2 border-argos-border rounded-lg p-2 sm:p-3 md:p-4 lg:p-6 h-[450px] sm:h-[500px] md:h-[600px] overflow-y-auto overflow-x-hidden font-mono-terminal transition-all duration-300"
         style={{
           boxShadow: '0 0 30px rgba(96, 245, 194, 0.15), inset 0 0 20px rgba(0, 0, 0, 0.3)',
           scrollBehavior: 'smooth',

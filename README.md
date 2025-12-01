@@ -29,11 +29,10 @@ npm run preview
 
 ### Terminal Interactif
 
-- Terminal ARGOS avec historique des commandes
 - Commandes disponibles :
   - `help` - Liste des commandes
   - `logo` - Logo ASCII ARGOS
-  - `summary` - Résumé du projet (50 mots)
+  - `summary` - Résumé du projet
   - `ideation` - Opportunité et problème adressé
   - `pbs` - Structure de découpage produit (PBS)
   - `functions` - Description des fonctions haut niveau
