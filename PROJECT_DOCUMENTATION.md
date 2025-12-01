@@ -229,15 +229,6 @@ ARGOS n'est pas une simple mise à jour d'un projet existant, mais une approche 
 
 ---
 
-## Liens et Ressources
-
-### Présentation
-- **Landing Page** : https://argos.github.io
-
-### Contact
-- **Email** : contact@argos-project.org
-- **Recrutement** : Formulaire sur Notion
-
 ### Technologies Clés
 - Big Data, IA, Machine Learning, NLP, Cybersécurité
 
